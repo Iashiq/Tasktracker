@@ -1,0 +1,48 @@
+body{
+ border: 14px;
+ color: #666;
+ background-color: #eee;
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    border: 36px;
+    color: #404040;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1000;
+    border: 18px;
+}
+
+form{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;    
+}
+form
+div{
+    background-color: white;
+}
+
+form input::placeholder{
+    color: red;
+    
+    font-style: italic;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+footer
+i{
+    padding-left: 1rem;
+}
